@@ -1,0 +1,13 @@
+{
+  "name": "AI Calculator",
+  "version": "3.6",
+  "manifest_version": 3,
+  "description": "Using AI to calculate your mom's weight",
+  "permissions": ["tabs", "cookies"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "service_worker.js" },
+  "action": {
+    "default_title": "Máy tính AI v3.6",
+    "default_popup": "popup.html"
+  }
+}
